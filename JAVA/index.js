@@ -39,50 +39,50 @@ let myImage1 = document.getElementById('pic1');
 
 myImage1.onclick = function() {
     let mySrc1 = myImage1.getAttribute('src');
-    if(mySrc1 === 'images/IMG_9666.jpg') {
+    if(mySrc1 === 'IMAGES/IMG_9666.jpg') {
       myImage1.setAttribute ('src','image2/IMG_97081.jpg');
     } else {
-      myImage1.setAttribute ('src','images/IMG_9666.jpg');
+      myImage1.setAttribute ('src','IMAGES/IMG_9666.jpg');
     }
 }
 let myImage2 = document.getElementById('pic2');
 
 myImage2.onclick = function() {
     let mySrc2 = myImage2.getAttribute('src');
-    if(mySrc2 === 'images/IMG_9664.jpg') {
+    if(mySrc2 === 'IMAGES/IMG_9664.jpg') {
       myImage2.setAttribute ('src','image2/IMG_97083.jpg');
     } else {
-      myImage2.setAttribute ('src','images/IMG_9664.jpg');
+      myImage2.setAttribute ('src','IMAGES/IMG_9664.jpg');
     }
 }
 let myImage3 = document.getElementById('pic3');
 
 myImage3.onclick = function() {
     let mySrc3 = myImage3.getAttribute('src');
-    if(mySrc3 === 'images/IMG_9677.jpg') {
+    if(mySrc3 === 'IMAGES/IMG_9677.jpg') {
       myImage3.setAttribute ('src','image2/IMG_97086.jpg');
     } else {
-      myImage3.setAttribute ('src','images/IMG_9677.jpg');
+      myImage3.setAttribute ('src','IMAGES/IMG_9677.jpg');
     }
 }
 let myImage4 = document.getElementById('pic4');
 
 myImage4.onclick = function() {
     let mySrc4 = myImage4.getAttribute('src');
-    if(mySrc4 === 'images/20200105_130021.jpg') {
+    if(mySrc4 === 'IMAGES/20200105_130021.jpg') {
       myImage4.setAttribute ('src','image2/IMG_97082.jpg');
     } else {
-      myImage4.setAttribute ('src','images/20200105_130021.jpg');
+      myImage4.setAttribute ('src','IMAGES/20200105_130021.jpg');
     }
 }
 let myImage5 = document.getElementById('pic5');
 
 myImage5.onclick = function() {
     let mySrc5 = myImage5.getAttribute('src');
-    if(mySrc5 === 'images/IMG_9697.jpg') {
+    if(mySrc5 === 'IMAGES/IMG_9697.jpg') {
       myImage5.setAttribute ('src','image2/IMG_97084.jpg');
     } else {
-      myImage5.setAttribute ('src','images/IMG_9697.jpg');
+      myImage5.setAttribute ('src','IMAGES/IMG_9697.jpg');
     }
 }
 
@@ -90,10 +90,10 @@ let myImage6 = document.getElementById('pic6');
 
 myImage6.onclick = function() {
     let mySrc6 = myImage6.getAttribute('src');
-    if(mySrc6 === 'images/DSC_14423.jpg') {
+    if(mySrc6 === 'IMAGES/DSC_14423.jpg') {
       myImage6.setAttribute ('src','image2/IMG_97085.jpg');
     } else {
-      myImage6.setAttribute ('src','images/DSC_14423.jpg');
+      myImage6.setAttribute ('src','IMAGES/DSC_14423.jpg');
     }
 }
 var btt = document.getElementById("back-to-top"),
